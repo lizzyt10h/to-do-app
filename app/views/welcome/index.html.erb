@@ -1,5 +1,14 @@
 <div>
     <p>
-        Hola mundo! Soy una vista.
+        Hola mundo! Soy una vista. Bienvenida <%=@nombre%>
     </p>
+    <% if @imprimir == true %>
+    <p>
+        Fecha <%=Time.now%>
+    </p>
+    <% end %>
+    
+    <body>
+        
+    </body>
 </div>
